@@ -12,14 +12,19 @@ checkNumberButton.addEventListener('click', checkBirthdayIsLucky);
 
 function checkBirthdayIsLucky() {
   const dob = dateOfBirth.value;
-  const sum = calculateSum(dob);
-  if (dob && luckyNumber.value) {
-    compareValues(sum, luckyNumber.value);
+  const luckyNum = luckyNumber.value;
+  if (dob && luckyNum) {
+    if (luckyNum > 0) {
+      const sum = calculateSum(dob);
+      compareValues(sum, luckyNumber.value);
+    }
+    else {
+      outputBox.innerText = "please fill positive values only";
+    }
   }
   else {
     outputBox.innerText = "please fill in both the fields";
   }
-
 }
 
 function calculateSum(dob) {
