@@ -45,7 +45,7 @@ input{
    background-color: var(--primary-green);
    padding: 2rem 0rem;
    text-align: center;
-   color: black;
+   color: var(--primary-dark);
    border-top-right-radius: 1rem;
 }
  
