@@ -12,4 +12,4 @@ and the result is displayed accordingly.
 HTML, CSS and JavaScript
 
 ### Demo:
-[Birthday Luck](https://luckynumber-ex0.gauthamkamath.repl.co/)
+[Birthday Luck](https://replit.com/@GauthamKamath/LuckyNumber-ex0??embed=1&output=1)
